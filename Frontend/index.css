@@ -1,0 +1,11 @@
+/* Global scale adjustment for the dashboard and all sections */
+/* Equivalent to ~90% browser zoom without transform side effects */
+html {
+  font-size: 90%;
+}
+
+/* Keep text rendering consistent across devices */
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
